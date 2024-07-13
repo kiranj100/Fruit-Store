@@ -15,12 +15,14 @@ const Favourite = () => {
      text-center gap-10 py-8 font-bold"
     >
       {favorites.length === 0 ? (
-        <p
-          className="grid-cols-none
-        text-4xl text-center grid-flow-row"
+        <div
+          className="
+            text-center text-4xl 
+            font-bold text-red-500
+          "
         >
-          No Item added in Cart.
-        </p>
+          <p> Cart is empty.</p>
+        </div>
       ) : (
         favorites.map((item) => (
           <Card key={item.id} className="w-64 h-[19rem]">
