@@ -91,7 +91,7 @@ function All() {
                     style={{ marginTop: "12px" }}
                     onClick={() => addFavorite(item)}
                   >
-                    Add Favourite
+                    Add Cart
                   </Button>
                 </Link>
               </CardContent>

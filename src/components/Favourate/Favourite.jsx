@@ -19,7 +19,7 @@ const Favourite = () => {
           className="grid-cols-none
         text-4xl text-center grid-flow-row"
         >
-          No favourites added.
+          No Item added in Cart.
         </p>
       ) : (
         favorites.map((item) => (

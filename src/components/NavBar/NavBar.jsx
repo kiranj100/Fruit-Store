@@ -44,7 +44,7 @@ function NavBar() {
             `}
               to="/favourite"
             >
-              Favourite
+              Cart
             </NavLink>
           </li>
         </ul>
@@ -95,7 +95,7 @@ function NavBar() {
            `}
               to="/favourite"
             >
-              Favourite
+              Cart
             </NavLink>
           </li>
         </ul>
