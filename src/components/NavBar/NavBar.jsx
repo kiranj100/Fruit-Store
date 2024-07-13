@@ -54,13 +54,13 @@ function NavBar() {
       <nav className="md:hidden text-white w-full ">
         <div
           className="flex h-20 bg-gray-700 items-center 
-         justify-between px-4 text-2xl font-bold z-50 relative w-full
+         justify-between px-7 text-2xl font-bold z-50 relative w-full
          shadow-md"
         >
           <h1 className=" hover:text-red-500 cursor-pointer">Fruit Store</h1>
           <div
             onClick={Toggle}
-            className="cursor-pointer text-3xl hover:text-green-300"
+            className="cursor-pointer text-4xl hover:text-green-300"
           >
             {!ToggleMenu ? <MdOutlineRestaurant /> : <MdRestaurantMenu />}
           </div>
