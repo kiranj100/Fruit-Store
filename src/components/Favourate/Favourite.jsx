@@ -11,17 +11,19 @@ const Favourite = () => {
 
   return (
     <div
-      className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 justify-items-center
-     text-center gap-10 py-8 font-bold"
+      className="grid xl:grid-cols-4 lg:grid-cols-3 
+      md:grid-cols-2 justify-items-center text-center
+      gap-10 py-8 font-bold"
     >
       {favorites.length === 0 ? (
         <div
           className="
             text-center text-4xl 
             font-bold text-red-500
+            w-full h-full
           "
         >
-          <p> Cart is empty.</p>
+          <div className="text-center mx-auto"> Cart is empty.</div>
         </div>
       ) : (
         favorites.map((item) => (
