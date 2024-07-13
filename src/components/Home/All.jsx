@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import ComponentContext from "../Contaxt/ComponentProvider.jsx";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import Data from "../../Data.json";
+import Data from "../../Data.js";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
