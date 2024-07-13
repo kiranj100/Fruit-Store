@@ -55,7 +55,7 @@ function All() {
                   height={200}
                   width={200}
                   className="xl:size-60 lg:size-60 md:size-60
-                     sm:size-10 size-60 bg-slate-600 rounded-2xl 
+                     sm:size-10 size-60  rounded-2xl 
                      shadow-xl"
                 />
               </div>
@@ -82,7 +82,7 @@ function All() {
                   component="img"
                   image={item.photo}
                   alt={`Image of ${item.fruit}`}
-                  className="text-center size-48 bg-slate-600"
+                  className="text-center size-48 "
                 />
                 <Link to="/favourite">
                   <Button
