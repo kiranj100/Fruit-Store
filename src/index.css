@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  scrollbar-color: #0656eb #cc21d8;
+  scroll-behavior: smooth;
+  /* scroll-snap-align: start; */
+}
+::-webkit-scrollbar {
+  width: 1px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4777d7;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #39d4a8;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c0ff04;
+}
