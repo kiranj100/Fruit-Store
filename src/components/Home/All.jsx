@@ -81,7 +81,6 @@ function All() {
                 <CardMedia
                   component="img"
                   image={item.photo}
-                  alt={`Image of ${item.fruit}`}
                   className="text-center size-48 "
                 />
                 <Link to="/favourite">
