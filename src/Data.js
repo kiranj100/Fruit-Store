@@ -147,7 +147,7 @@ const data = [
   {
     id: 30,
     fruit: "Passion Fruit",
-    photo: "../assets/Passion Fruit.jpg",
+    photo: "../assets/PassionFruit.jpg",
   },
   {
     id: 31,
